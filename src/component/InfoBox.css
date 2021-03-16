@@ -1,0 +1,40 @@
+.InfoBox-header{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .classes.paper{
+        display: flex !important;
+        justify-content: space-between !important;
+        margin-bottom: 10px !important;
+
+    }
+.infobox {
+    flex: 1;
+    cursor: pointer;
+}
+.infobox:not(:last-child) {
+    margin-right : 10px;
+}
+.infobox-cases{
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.infobox-total {
+    color: #6c757d ;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    margin-top: 15px !important;
+}
+.infobox--selected {
+    border-top: 10px solid greenyellow;
+}
+.infobox--red {
+    border-color: red;
+}
+.infobox-cases--green {
+    color: lightgreen !important;
+}
